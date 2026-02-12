@@ -1,3 +1,2 @@
 *.gz filter=lfs diff=lfs merge=lfs -text
-*.data filter=lfs diff=lfs merge=lfs -text
 TheGarbageCollector/Build/Build.data filter=lfs diff=lfs merge=lfs -text
