@@ -1,5 +1,7 @@
-rm -rf MusicNoteGame/*
-cp -r ../MusicNoteGame/Build/* MusicNoteGame/
+REPO_NAME="MusicNoteGame"
+
+rm -rf "${RePO_NAME}/*"
+cp -r "../${REPO_NAME}/Build/*" "${REPO_NAME}/"
 git add .
 git commit -m "Latest version"
 git push
